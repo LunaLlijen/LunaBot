@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#14495e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+    position: relative;
+    width: 140px;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 50%;
+    box-shadow: 0 5px 45px skyblue;
+    overflow: hidden;
+}
+
+.ball {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 45px;
+height: 45px;
+border-radius: 50%;
+background: black;
+border: 8px solid #617c58;
+box-sizing: border-box;
+}
