@@ -8,7 +8,16 @@ h1, h2, h3, h4, h5, h6 {
 p, a {
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+p2 {
+  font-style: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: large;
+  display: grid;
+  text-align: center;
+  color: yellow;
+  padding: 1rem .75rem;
+  text-justify: inter-word;
+}
 /* Generic styles */
 html {
   scroll-behavior: smooth;
