@@ -74,7 +74,7 @@ a:hover {
 .temp > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
-  background-color: gray;
+  background-color: rgb(78, 76, 76);
 }
 
 .temp > ul > li > figure {
@@ -91,7 +91,7 @@ a:hover {
 
 
 .temp > ul > li > p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   padding: 1rem .75rem;
   color: white;
