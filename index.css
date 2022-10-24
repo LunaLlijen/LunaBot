@@ -95,6 +95,8 @@ a:hover {
   line-height: 1.5;
   padding: 1rem .75rem;
   color: white;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .temp > ul > li > a {
