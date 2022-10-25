@@ -14,7 +14,7 @@ p2 {
   font-size: large;
   display: grid;
   text-align: center;
-  color: yellow;
+  color: red;
   padding: 1rem .75rem;
   text-justify: inter-word;
 }
@@ -45,8 +45,8 @@ a:hover {
 
 /* Styles for the header class */
 .header {
-  background: url('Pexels\ Videos\ 2611250.mp4') center;
   background-size: cover;
+  background-position: center;
   padding: 4rem 2rem;
 
   /* grid styles */
@@ -74,6 +74,15 @@ a:hover {
   margin-top: .75rem;
 }
 
+.container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
 /* Template styles */
 .temp {
   padding: 2rem;
@@ -89,7 +98,7 @@ a:hover {
 .temp > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
-  background-color: rgb(78, 76, 76);
+  background-color: white;
 }
 
 .temp > ul > li > figure {
@@ -109,7 +118,7 @@ a:hover {
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 1rem .75rem;
-  color: white;
+  color: black;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -121,7 +130,6 @@ a:hover {
 
 /* footer styles */
 footer {
-  background: url('Pexels\ Videos\ 2611250.mp4') center;
   padding: .75rem;
   color: white;
   text-align: center;
