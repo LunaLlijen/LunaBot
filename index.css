@@ -45,7 +45,7 @@ a:hover {
 
 /* Styles for the header class */
 .header {
-  background: url('Pexels\ Videos\ 2611250.mp4') center;
+  background: url('Stars.jpg');
   background-size: cover;
   padding: 4rem 2rem;
 
@@ -121,7 +121,7 @@ a:hover {
 
 /* footer styles */
 footer {
-  background: url('Pexels\ Videos\ 2611250.mp4') center;
+  background: url('Stars.jpg');
   padding: .75rem;
   color: white;
   text-align: center;
